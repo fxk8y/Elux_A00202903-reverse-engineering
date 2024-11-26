@@ -2323,6 +2323,17 @@
 		)
 		(uuid "bada526d-804e-412a-9880-452bcfbc99c8")
 	)
+	(text "1 GND (logic)\n2 Vcc (logic)\n3 GND (power)\n4 +325V (power)\n"
+		(exclude_from_sim no)
+		(at 231.902 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bf2644a-3d4d-4f53-93ed-202416170762")
+	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 88.9 67.31 270)
@@ -2465,10 +2476,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e9b308f-d9e5-4e6d-9358-985753c173b2")
 		(property "Reference" "J2"
-			(at 230.632 119.4378 0)
+			(at 226.314 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2487,7 @@
 			)
 		)
 		(property "Value" "to inverter PCB"
-			(at 230.632 121.8621 0)
+			(at 226.314 113.1683 0)
 			(effects
 				(font
 					(size 1.27 1.27)
